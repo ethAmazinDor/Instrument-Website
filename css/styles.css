@@ -142,7 +142,7 @@ img{
 
 /* Alternating Section */ 
 .alternating-section {
-    height: 1500px;
+    height: 1900px;
 }
 
 .section-left {
@@ -186,4 +186,108 @@ img{
     display: flex;
     justify-content: space-evenly;
     height: 650px;
+}
+
+/*explore section */
+.explore-projects {
+    display: flex;
+    flex-direction: column;
+    height: 20rem;
+
+}
+
+.explore-container{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.explore-text-container {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    height: 8rem;
+}
+.explore-text {
+    font-size: 2.8rem;
+    line-height: 3.6rem;
+    font-weight: normal;
+}
+
+/*two column section */
+
+.two-column-section {
+    margin-top: 4rem;
+
+}
+
+.two-column-container {
+    display: flex;
+    text-align: center;
+}
+
+.two-col-desc {
+    display: flex;
+    text-align: start;
+    margin-left: 7rem;
+    margin-top: 1.3rem;
+    line-height: 2rem;
+}
+
+.two-col-text {
+    display: flex;
+    margin-left: 7rem;
+    margin-top: 1.3rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+
+/* Logo Section */ 
+
+.logo-section {
+    margin-top: 5rem;
+}
+
+.logo-container {
+    height: 20rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+
+.bxl-ebay, .bxl-paypal, .bxl-linkedin {
+    color: white;
+    font-size: 4rem;
+}
+
+
+
+/* partner section */
+.partner-section {
+    margin-top: 10rem;
+}
+
+.partner-container {
+    text-align: center;
+}
+
+.partner-header {
+    font-size: 4rem;
+    font-weight: normal;
+}
+
+.partner-btn {
+    margin-top: 2rem;
+}
+
+
+/* footer */
+
+footer {
+    margin-top: 10rem;
 }
