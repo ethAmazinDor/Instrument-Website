@@ -112,3 +112,25 @@
     background-size: cover;
 
 }
+
+/* words section */
+
+.quote {
+    height: 30rem;
+}
+
+.quote-section {
+    height: 20rem;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 5rem;
+
+}
+
+.quote-style {
+    font-size: 3rem;
+    margin-top: 4rem;
+    text-align: center;
+    font-weight: normal;
+
+}
