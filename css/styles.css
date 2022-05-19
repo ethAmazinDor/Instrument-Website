@@ -6,6 +6,11 @@
     color: var(--nav-links);
 }
 
+img{
+    width: 450px;
+    height: 450px;
+}
+
 :root {
     --main-bg-color: black;
     --nav-links: white;
@@ -107,7 +112,7 @@
     margin: 0 auto;
     width: 90%;
     margin-top: 3rem;
-    background-image: url("/diversity.jpg");
+    background-image: url("/img/diversity.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -116,7 +121,7 @@
 /* words section */
 
 .quote {
-    height: 30rem;
+    height: 20rem;
 }
 
 .quote-section {
@@ -133,4 +138,52 @@
     text-align: center;
     font-weight: normal;
 
+}
+
+/* Alternating Section */ 
+.alternating-section {
+    height: 1500px;
+}
+
+.section-left {
+    height: 650px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-container {
+    height: 30rem;
+    width: 35rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.right-content {
+    height: 280px;
+    width: 30%;
+    margin-top: 5rem;
+    margin-right: 2rem;
+}
+
+.right-text {
+    line-height: 2rem;
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+
+.right-btn {
+    margin-top: 2rem;
+}
+
+
+.right-container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 650px;
 }
