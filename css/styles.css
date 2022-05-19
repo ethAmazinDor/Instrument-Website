@@ -51,5 +51,64 @@
     
 }
 /* HERO SECTION*/
+.hero-section {
+    height: 600px;
+}
+
+.container {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 4rem;
+    
+}
+
+.hero-title {
+    margin-top: 8rem;
+}
+
+.hero-header {
+    font-size: 6rem;
+}
+
+.hero-text {
+    width: 50%;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+}
+
+.hero-btn {
+    margin-top: 1rem;
+}
+
+.btn {
+    padding: 15px 35px;
+    text-align: center;
+    background-color: var(--nav-links);
+    color: black;
+    border-radius: 1.4rem;
+    border: none;
+    cursor: pointer;
+    letter-spacing: .1rem;
+    font-size: .7rem;
+    margin-top: 1rem;
+}
 
 
+
+/*Video Section*/
+.video-section {
+    height: 700px;
+}
+
+.video-container {
+    height: 600px;
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 3rem;
+    background-image: url("/diversity.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
